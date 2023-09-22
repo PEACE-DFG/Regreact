@@ -32,7 +32,7 @@ function Login() {
       if(matchedUser){
         //succesfful login
         alert("Successful login")
-        navigate('/Home')
+        navigate('/')
       }
       else{
         //invalid login
